@@ -1,7 +1,7 @@
 import re
 import Tests
 
-pattern = re.compile(r'(\b\w+\b)\W+(\b\1\b\W+){1,}')
+pattern = re.compile(r'(\b\w+\b)\W+(\b\1\b\W+)+')
 for i in range(5):
     print("Input:")
     print(Tests.test_repeats[i])
