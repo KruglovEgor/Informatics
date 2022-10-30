@@ -1,6 +1,6 @@
 import time
 
-from ITMO.Informatics.lab4 import With_hands, With_regulars, With_libs
+from Informatics.lab4 import With_hands, With_regulars, With_libs
 
 t0_hands = time.time()
 for i in range(10):
