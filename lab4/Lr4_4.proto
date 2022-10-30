@@ -1,0 +1,128 @@
+syntax = "proto3";
+  message table{
+  string id = 1;
+  string class = 2;
+  int32 border = 3;
+  int32 cellpadding = 4;
+  int32 cellspacing = 5;
+    message tbody{
+      message tr{
+        message th{
+        string class = 6;
+        string script = 7;
+      string span = 8;
+      };
+        message td{
+        string class = 9;
+        string span = 10;
+        repeated string div = 11;
+          message dd{
+        string class = 12;
+        };
+          message dt{
+          string class = 13;
+            message i{
+          string class = 14;
+          };
+      string span = 15;
+      }};
+        message td1{
+        string class = 16;
+          message dl{
+          string dd = 17;
+            message dt{
+              message i{
+            string class = 18;
+            };
+      string span = 19;
+      }}};
+        message td2{
+        string class = 20;
+          message dl{
+          string dd = 21;
+            message dt{
+      string b = 22;
+      }}};
+        message td3{
+        string class = 23;
+    string b = 24;
+    }};
+      message tr1{
+        message th{
+      string class = 25;
+      };
+        message td{
+        string class = 26;
+        string span = 27;
+        int32 div = 28;
+          message dd{
+        string class = 29;
+        };
+          message dt{
+          string class = 30;
+            message i{
+          string class = 31;
+          };
+      string span = 32;
+      }};
+        message td1{
+        string class = 33;
+          message dl{
+          string dd = 34;
+            message dt{
+              message i{
+            string class = 35;
+            };
+      string span = 36;
+      }}};
+        message td2{
+        string class = 37;
+          message dl{
+          string dd = 38;
+            message dt{
+      string b = 39;
+      }}};
+        message td3{
+        string class = 40;
+    string b = 41;
+    }};
+      message tr2{
+        message th{
+      string class = 42;
+      };
+        message td{
+        string class = 43;
+        string span = 44;
+        repeated string div = 45;
+          message dd{
+          string class = 46;
+        string b = 47;
+        };
+          message dt{
+          string class = 48;
+            message i{
+          string class = 49;
+          };
+      string span = 50;
+      }};
+        message td1{
+        string class = 51;
+          message dl{
+          string dd = 52;
+            message dt{
+              message i{
+            string class = 53;
+            };
+      string span = 54;
+      }}};
+        message td2{
+        string class = 55;
+          message dl{
+          string dd = 56;
+          string b = 57;
+            message dt{
+      string b = 58;
+      }}};
+        message td3{
+        string class = 59;
+        string b = 60;}}}}
